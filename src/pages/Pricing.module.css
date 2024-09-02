@@ -1,0 +1,28 @@
+.pricing {
+  background-color: var(--color-dark--1);
+  padding: 2.5rem 5rem;
+  height: calc(100vh - 5rem);
+  margin: 2.5rem;
+}
+
+.pricing section {
+  width: clamp(80rem, 80%, 90rem);
+  display: grid;
+  margin: 6rem auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: center;
+}
+
+.pricing section img {
+  /* height: calc(50vh - 5rem); */
+  width: 100%;
+}
+.pricing section div h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3.5rem;
+}
+.pricing section div p {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 5rem;
+}
+.nav ul li a {
+  color: var(--color-light--2);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.loginLink {
+  background-color: var(--color-brand--2);
+  border-radius: 7px;
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  font-weight: 700;
+}

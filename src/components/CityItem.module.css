@@ -1,0 +1,45 @@
+.cityLink {
+  text-decoration: none;
+  border-radius: 7px;
+  background-color: var(--color-dark--2);
+  padding: 1rem 2rem;
+  display: flex;
+  cursor: pointer;
+  color: inherit;
+  gap: 1.6rem;
+  align-items: center;
+  border-left: 5px solid var(--color-brand--2);
+}
+
+.cityLink span {
+  font-size: 2.6rem;
+  line-height: 1;
+}
+.cityLink time {
+  font-size: 1.5rem;
+}
+
+.cityLink h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-right: auto;
+}
+.cityLink button {
+  border-radius: 50%;
+  background-color: var(--color-dark--1);
+  cursor: pointer;
+  color: var(--color-light--2);
+  border: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  height: 2rem;
+  aspect-ratio: 1;
+  transition: all 0.2s;
+}
+.cityLink button:hover {
+  background-color: var(--color-brand--1);
+}
+.city-selected--active {
+  border: 2px solid var(--color-brand--2);
+  border-left: 5px solid var(--color-brand--2);
+}
